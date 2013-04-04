@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:key="mbbPreferenceCategory" android:title="mBB Settings">
+                <EditTextPreference
+                    android:key="refreshInterval"
+                    android:title="Refresh interval"
+                    android:summary="Master Server Query Interval"
+	                android:defaultValue="15"
+	                android:numeric="decimal" />
+               <CheckBoxPreference
+			        android:key="autofill" 
+			        android:title="Autofill Login Credentials"
+			        android:summary="Autofill Login Credentials for ease"
+			        android:defaultValue="false" />
+        </PreferenceCategory>
+</PreferenceScreen>

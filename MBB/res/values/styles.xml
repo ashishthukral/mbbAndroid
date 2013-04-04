@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="SpinnerItem.DropDownItem.Color" parent="@android:style/Widget.DropDownItem.Spinner">
+      <item name="android:textColor">#348017</item>
+  </style>
+
+</resources>
